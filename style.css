@@ -1,9 +1,10 @@
 body {
-  background: #000;
+  background: #000 url(https://trancentral.tv/wp-content/uploads/2016/06/tumblr_njgo6ciE2Y1tre1zbo1_500.gif);
+  background-size: cover;
 }
 
 iframe {
   width: 80vw;
-  height: auto;
+  height: 80vh;
   margin: 0 auto;
 }
