@@ -11,6 +11,7 @@ body {
   height: 100%;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -31,6 +32,7 @@ iframe {
 }
 
 #shy-logo {
-  width: 7rem;
+  width: 5rem;
   height: auto;
+  display: inline-block;
 }
