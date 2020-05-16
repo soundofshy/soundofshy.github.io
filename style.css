@@ -25,7 +25,7 @@ img, iframe {
 iframe {
   width: 80vw;
   height: 80vh;
-  mix-blend-mode: color-dodge;
+  mix-blend-mode: exclusion;
 }
 
 .shy-logo-wrapper {
