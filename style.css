@@ -42,4 +42,9 @@ iframe {
 
 #shy-logo img {
   mix-blend-mode: color-dodge;
+  transition: 0.2s ease-in-out;
+}
+
+#shy-logo:hover img, #shy-logo:focus img {
+  fill: #fc8e96;
 }
