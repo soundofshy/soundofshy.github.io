@@ -1,4 +1,1 @@
-ohrenkino.shy.pink.                IN      A
-ohrenkino.shy.pink.        3592    IN      CNAME    soundofshy.github.io.
-soundofshy.github.io.      43192   IN      CNAME    soundofshy.github.io.
-soundofshy.github.io.      22      IN      A        192.0.2.1
+ohrenkino.shy.pink
