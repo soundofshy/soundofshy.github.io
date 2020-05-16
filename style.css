@@ -34,9 +34,11 @@ iframe {
 }
 
 #shy-logo {
-  width: 5rem;
-  height: auto;
+  width: 3rem;
   display: inline-block;
+  margin-right: 9.5rem;
+  top: -4.5rem;
+  position: relative;
 }
 
 #shy-logo img {
