@@ -5,7 +5,7 @@ html {
 
 body {
   background: #000 url("https://trancentral.tv/wp-content/uploads/2016/06/self-initiation.gif");
-  background-size: 110%;
+  background-size: cover;
   background-position: 50% 50%;
   margin: 0;
   height: 100%;
