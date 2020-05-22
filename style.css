@@ -28,6 +28,14 @@ iframe {
   mix-blend-mode: exclusion;
 }
 
+@media(max-width:767px){
+  iframe {
+    width: 95vw;
+    height: 95vh;
+    mix-blend-mode: inherit;
+  }
+}
+
 .shy-logo-wrapper {
   width: 80vw;
   text-align: right;
