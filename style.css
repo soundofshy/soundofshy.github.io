@@ -31,7 +31,7 @@ iframe {
 @media(max-width:767px){
   iframe {
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 2rem);
     mix-blend-mode: inherit;
     margin: 1rem;
   }
