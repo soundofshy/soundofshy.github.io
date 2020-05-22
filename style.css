@@ -30,9 +30,10 @@ iframe {
 
 @media(max-width:767px){
   iframe {
-    width: 95vw;
-    height: 95vh;
+    width: 100vw;
+    height: 100vh;
     mix-blend-mode: inherit;
+    margin: 1rem;
   }
 }
 
