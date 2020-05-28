@@ -86,7 +86,7 @@ img, iframe {
 
 #chat-logo {
     position: absolute;
-    right: -1.6rem;
+    right: -1.9rem;
     top: 50%;
     margin-top: -1.5rem;
     background: #fff;
@@ -103,6 +103,7 @@ img, iframe {
 
 #chat-logo:hover, #chat-logo:focus {
     padding-left: 1.3rem;
+    right: -2.2rem;
 }
 
 .shy-logo-wrapper {
