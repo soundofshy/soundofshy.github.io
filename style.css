@@ -75,7 +75,7 @@ img, iframe {
 
 #chat #close:hover, #chat #close:focus {
     color: #fc8e96;
-    border: 1px solid #ddd;
+    border: 1px solid #fc8e96;
 }
 
 .shy-logo-wrapper {
