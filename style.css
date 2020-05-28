@@ -51,11 +51,14 @@ img, iframe {
     top: 0;
 }
 
+#chat iframe{
+    height: 100%;
+}
+
 #chat #close {
-    position:absolute;
-    top: 50%;
-    margin-top: -0.75rem;
-    left: 0;
+    position: absolute;
+    top: 0.35rem;
+    left: 1rem;
     display: flex;
     width: 1.5rem;
     height: 1.5rem;
@@ -63,6 +66,16 @@ img, iframe {
     background: #fff;
     border-radius: 100%;
     color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+    border: 1px solid #fff;
+    transition: 0.2s ease-in-out;
+}
+
+#chat #close:hover, #chat #close:focus {
+    color: #fc8e96;
+    border: 1px solid #ddd;
 }
 
 .shy-logo-wrapper {
