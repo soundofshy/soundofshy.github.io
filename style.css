@@ -43,6 +43,14 @@ img, iframe {
     mix-blend-mode: exclusion;
 }
 
+#chat_embed {
+    width:20rem;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 .shy-logo-wrapper {
   width: 80vw;
   text-align: right;
