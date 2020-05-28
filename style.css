@@ -167,7 +167,8 @@ img, iframe {
   }
   
   #chat iframe {
-    opacity: 0.5;
+    opacity: 0.9;
+    height: calc(100% - 2.7rem);
   }
   
 }
