@@ -13,22 +13,25 @@
   </head>
   <body>
     
-     <iframe
-        src="https://player.twitch.tv/?channel=ohrenkino&parent=http://ohrenkino.shy.pink/"
-        height="400"
-        width="400"
-        frameborder="frameborder"
-        scrolling="scrolling"
-        allowfullscreen="allowfullscreen">
-    </iframe>
     <iframe
         src="https://player.twitch.tv/?channel=ohrenkino&parent=ohrenkino.shy.pink"
         height="400"
         width="400"
+        frameborder="0"
+        scrolling="no"
         allowfullscreen="allowfullscreen">
     </iframe>
     
+    <iframe frameborder="0"
+            scrolling="no"
+            id="chat"
+            src="https://www.twitch.tv/embed/ohrenkino/chat?parent=ohrenkino.shy.pink"
+            height="500"
+            width="350">
+    </iframe>
+    
     <div class="shy-logo-wrapper">
+        <a id="chat-logo" href="#chat" title="Show chat"><img src="icon_chat.svg" alt="Show chat"/></a>
         <a id="info-logo" href="https://www.facebook.com/events/526084254729898" target="_blank" title="Show info on Facebook"><img src="icon_info.svg" alt="Show Info"/></a>
         <a id="shy-logo" href="http://shy.pink" target="_blank" title="Visit 𝙎𝙃𝙔."><img src="shy_logo.svg" alt="SHY Logo"/></a>
     </div>
