@@ -26,7 +26,6 @@ img, iframe {
     width: 80vw;
     height: 80vh;
     position: relative;
-    mix-blend-mode: exclusion;
 }
 
 .video-container #video,
