@@ -47,12 +47,14 @@ img, iframe {
     top: 0.8rem;
     display: none;
     z-index: -1;
+    opacity: 0;
     transition: 0.5s ease-in-out;
 }
 
 #chat.open {
     display: block;
     z-index: 1;
+    opacity: 1;
 }
 
 #chat iframe {
