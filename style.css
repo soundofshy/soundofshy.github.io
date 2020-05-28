@@ -57,15 +57,16 @@ img, iframe {
 
 #chat #close {
     position: absolute;
-    top: 0.35rem;
+    top: 0.5rem;
     left: 1rem;
     display: flex;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.85rem;
+    height: 1.85rem;
     justify-content: center;
     background: #fff;
     border-radius: 100%;
     color: #333;
+    line-height: 1;
     text-decoration: none;
     font-weight: bold;
     font-size: 2rem;
@@ -74,7 +75,7 @@ img, iframe {
 }
 
 #chat #close:hover, #chat #close:focus {
-    color: #fc8e96;
+    color: #fc8e9670;
     border: 1px solid #fc8e96;
 }
 
