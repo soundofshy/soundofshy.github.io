@@ -51,7 +51,7 @@ img, iframe {
 #chat iframe {
     height: 90%;
     height: calc(100% - 3.5rem);
-    opacity: 0.2;
+    opacity: 0.12;
     transition: 0.5s ease-in-out;
 }
 
@@ -71,7 +71,7 @@ img, iframe {
     font-weight: bold;
     font-size: 2rem;
     border: 1px solid #fff;
-    opacity: 0.2;
+    opacity: 0.02;
     transition: 0.2s ease-in-out;
 }
 
@@ -80,7 +80,7 @@ img, iframe {
     opacity:0.95;
 }
 
-#chat #close:hover, #chat #close:focus {
+#chat .close:hover, #chat .close:focus {
     color: #fc8e9670;
     border: 1px solid #fc8e96;
 }
