@@ -43,7 +43,7 @@ img, iframe {
     mix-blend-mode: exclusion;
 }
 
-#chat #chat_embed {
+#chat {
     width:20rem;
     height: 100%;
     position: absolute;
@@ -53,14 +53,16 @@ img, iframe {
 
 #chat #close {
     position:absolute;
-    top: -0.5rem;
-    right: -0.5rem;
+    top: 50%;
+    margin-top: -0.75rem;
+    left: 0;
     display: flex;
     width: 1.5rem;
-    hwight: 1.5rem;
+    height: 1.5rem;
     justify-content: center;
     background: #fff;
     border-radius: 100%;
+    color: #333;
 }
 
 .shy-logo-wrapper {
