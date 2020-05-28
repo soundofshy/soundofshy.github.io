@@ -153,11 +153,21 @@ img, iframe {
     width: 100vw;
     height: calc(100vh - 4rem);
     mix-blend-mode: inherit;
-    margin: 1rem;
+    margin: 2rem;
   }
   
   #shy-logo {
     margin-right: -1.4rem;
+  }
+  
+  #chat {
+    width: 100%;
+    right: 0;
+    top: 0;
+  }
+  
+  #chat iframe {
+    opacity: 0.5;
   }
   
 }
