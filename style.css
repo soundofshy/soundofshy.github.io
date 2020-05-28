@@ -45,6 +45,14 @@ img, iframe {
     position: absolute;
     right: 0.8rem;
     top: 0.8rem;
+    display: none;
+    z-index: -1;
+    transition: 0.5s ease-in-out;
+}
+
+#chat.open {
+    display: block;
+    z-index: 1;
 }
 
 #chat iframe {
