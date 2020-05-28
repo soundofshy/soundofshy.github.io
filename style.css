@@ -51,7 +51,7 @@ img, iframe {
     height: 100%;
 }
 
-#chat #close {
+#chat .close {
     position: absolute;
     top: 0.5rem;
     left: 1rem;
