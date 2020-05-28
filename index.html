@@ -22,13 +22,16 @@
         allowfullscreen="allowfullscreen">
     </iframe>
     
-    <iframe frameborder="0"
+    <div id="chat">
+        <iframe frameborder="0"
             scrolling="no"
-            id="chat"
+            id="chat_embed"
             src="https://www.twitch.tv/embed/ohrenkino/chat?parent=ohrenkino.shy.pink"
             height="500"
             width="350">
-    </iframe>
+        </iframe>
+        <a href="#" id="close" title="Close">×</a>
+    </div>
     
     <div class="shy-logo-wrapper">
         <a id="chat-logo" href="#chat" title="Show chat"><img src="icon_chat.svg" alt="Show chat"/></a>
