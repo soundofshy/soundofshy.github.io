@@ -1,3 +1,8 @@
 $(document).ready(function () {
-  $('#chat-logo, .close').toggleClass('open');
+    $('#chat-logo').click(function(e) {
+        $('#chat, #chat-logo').toggleClass('open');
+    });
+    $('.close').click(function(e) {
+        $('#chat, #chat-logo').toggleClass('open');
+    });
 });
